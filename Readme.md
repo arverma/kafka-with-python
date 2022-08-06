@@ -12,7 +12,7 @@ fd7ae62be120   zookeeper                        "/docker-entrypoint.…"   7 sec
 2dd9cb568147   wurstmeister/kafka               "start-kafka.sh"         7 seconds ago   Up 6 seconds   0.0.0.0:9092->9092/tcp                                 kafka
 ```
 
-### Add cluster to Kafka Manager
+### [Optional] Add cluster to Kafka Manager
 * On any web browser, go to Kafka Cluster Manager and add Cluster
 * Give a cluster name: `test`
 * Cluster Zookeeper Hosts: `zookeeper:2181`
